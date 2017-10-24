@@ -16,6 +16,9 @@ import com.jayway.restassured.response.Response;
 public class SearchTest extends BaseClass{
 	
 	
+	/**
+	 * 
+	 */
 	@Test
 	public void freeFormSearch(){
 		logger = extent.startTest("freeFormSearch");
@@ -55,7 +58,9 @@ public class SearchTest extends BaseClass{
 	}
 	
 
-	
+	/**
+	 * 
+	 */
 	@Test
 	public void getFieldsData(){
 		logger = extent.startTest("getUriFieldsData");
