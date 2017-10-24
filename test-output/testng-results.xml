@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="90279" started-at="2017-10-18T09:23:10Z" finished-at="2017-10-18T09:24:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="90279" started-at="2017-10-18T09:23:10Z" finished-at="2017-10-18T09:24:41Z">
+      <class name="test.SearchTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:test.SearchTest@72f926e6]" name="startReport" is-config="true" duration-ms="123" started-at="2017-10-18T14:53:10Z" finished-at="2017-10-18T14:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="freeFormSearch()[pri:0, instance:test.SearchTest@72f926e6]" name="freeFormSearch" duration-ms="89893" started-at="2017-10-18T14:53:10Z" finished-at="2017-10-18T14:54:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeFormSearch -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.SearchTest@72f926e6]" name="getResult" is-config="true" duration-ms="4" started-at="2017-10-18T14:54:40Z" finished-at="2017-10-18T14:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=freeFormSearch status=SUCCESS method=SearchTest.freeFormSearch()[pri:0, instance:test.SearchTest@72f926e6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:test.SearchTest@72f926e6]" name="endReport" is-config="true" duration-ms="249" started-at="2017-10-18T14:54:40Z" finished-at="2017-10-18T14:54:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- test.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

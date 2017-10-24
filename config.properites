@@ -1,0 +1,4 @@
+username:autoprovisioner
+password:Testing@1234
+baseUrl:https://preview.catalystapps.com/insight/DataService/Dataservice.aspx
+caseName:insstagetest
